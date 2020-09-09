@@ -34,19 +34,9 @@ int32_t main(){
             if(hash.find(x) == hash.end() && x != 0){
                 ans++;
                 hash[x] = x;
-            }
-            
+            }            
         }
-        
-        // sort(v1.begin(), v1.end());
-        // fo(j, n - 1){
-        //     if(v1[j] != v1[j + 1]){
-        //         if(v1[j] != 0 && v1[j + 1] != 0){
-        //         ans++;}
-        //     }
-        // }
         cout <<ans<<endl;
-        //Big O mighty God Please help me to implement the logic without any bugs!
     }
     return 0;
 }
